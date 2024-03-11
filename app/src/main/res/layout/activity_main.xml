@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextMatrikelnummer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Matrikelnummer"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonSortieren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sortieren"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/buttonSenden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senden"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewErgebnis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ergebnis"
+        android:gravity="center"
+        android:textSize="18sp"/>
+</LinearLayout>
