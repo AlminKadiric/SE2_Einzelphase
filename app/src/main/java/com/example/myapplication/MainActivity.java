@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         buttonSortieren.setOnClickListener(v -> {
             String matrikelnummer = editTextMatrikelnummer.getText().toString();
-            String sortedMatrikelnummer = sortiereMatrikelnummer(matrikelnummer); // Correct method call
+            String sortedMatrikelnummer = sortiereMatrikelnummer(matrikelnummer);
             textViewErgebnis.setText(sortedMatrikelnummer);
         });
 
