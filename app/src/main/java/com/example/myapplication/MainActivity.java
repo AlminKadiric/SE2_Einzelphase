@@ -2,20 +2,11 @@ package com.example.myapplication;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
-
-import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -56,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private String sortiereMatrikelnummer(String nummer) {
+    String sortiereMatrikelnummer(String nummer) {
         char[] ziffern = nummer.toCharArray();
         Arrays.sort(ziffern);
 
